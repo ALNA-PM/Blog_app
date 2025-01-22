@@ -103,3 +103,4 @@ def upload_image(request):
         # Handle the image upload logic here
         return JsonResponse({'location': '/path/to/image'})  # Return the image URL
     return JsonResponse({'error': 'Image upload failed'}, status=400)
+
